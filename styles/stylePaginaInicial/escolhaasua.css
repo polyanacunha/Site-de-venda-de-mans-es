@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+.choose {
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1300px;
+    margin-left: -90px;
+    position: relative;
+    top: -170px;
+   
+}
+#titlechoose{
+    position: relative;
+    top: -170px;
+}
+
+article .choose img{
+    border-radius: 5px;
+    width: 420px;
+    height: 450px;
+    margin-top: 52px;
+    position: relative;
+    left: 85px;
+
+ 
+}
+.bicicletas{
+    position: relative;
+    width: 1349px;
+    height: 950px;
+    margin-left: -90px;
+    background-color: white;
+}
+
+.bicicletas .choose img{
+    padding-left: 40px;
+   
+}
+#titlechoose{
+ position: relative;
+ color: black;
+ font-size: 40px;
+ padding-left: 100px;
+ padding-top: 180px;
+    }
+.bikeNames {
+color: black;
+position: relative;
+display: flex;
+flex-direction: row;
+text-decoration: none;
+position: relative;
+top: -170px;
+  
+    }
+.bikeNames a #magic{
+        margin-left: 40px;
+        color: black;
+       
+    }
+.bikeNames #nimbus{
+        margin-left: 270px ;
+        color: black;
+    }
+.bikeNames #nebula{
+        color: black;
+        margin-left: 265px;
+    }
+.preco p{
+    color: rgb(87, 86, 86);
+    display: flex;
+    flex-direction: row;
+   }
+#one{
+   
+   left: 40px;
+   position: relative;
+   top: -150px;
+   }
+#two{
+       position: relative;
+       left: 470px;
+       
+       top: -170px;
+   }
+#three{
+       left: 910px;
+       position: relative;
+       top: -170px;
+   }
+ 
+  
+ a {
+    text-decoration: none;
+}
+
+.bicicletas article{
+   position: relative;
+   top: -90px;
+}

@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+.tecnologia {
+    position: relative;
+    background-color: rgb(17, 17, 17);
+    width: 1349px;
+    right: 90px;
+    height: 1000px;
+    bottom: 40px;
+    box-shadow: inset 0em -6em white;
+}
+.tecnologia p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.tecnologia #title{
+    padding-top: 80px;
+    padding-left:  100px; 
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.tecnologia h1{
+  font-size: 56px;
+  padding-left: 100px;
+}
+.tecnologia #text{
+      padding-left: 100px;
+      padding-top: 40px;
+      padding-bottom: 20px;
+     word-spacing: 3px;
+
+      font-size: 25px;
+}
+.tecnologia h2{
+   color:#5f38f1;
+   margin-left: 50px;
+   font-weight: 300;
+   margin-bottom: 60px;
+   padding-top: 15px;
+   padding-bottom: 5px;
+   border-bottom: 3px solid #5f38f1;
+   width: 230px;
+   position: relative;
+   left: 50px;
+
+}
+.tecnologia .modelo{
+    position: relative;
+       
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -130px;
+    
+}
+.tecnologia .motor{
+    position: relative;
+    left: 130px;
+}
+.tecnologia .rastreador{
+  position: relative;
+  right: 20px;
+}
+ #texto{
+     padding-top: 10px;
+    font-size: 18px;
+    
+    
+}
+.facas {
+    position: relative;
+    left: 800px;
+    bottom:550px;
+    width: 500px;
+    height: 1200px;
+}
+#motortitulo, #rastreadortitulo{
+color: white;
+}
+/* nossos parceiros */
+.parceiros img{
+    position: relative;
+    margin-left: -60px;
+    top: 110px;
+    left: 60px;
+}
+.parceiros{
+    background-color: white;
+    position: relative;
+    left: -90px;
+    width: 1349px;
+    top: -40px;
+    height: 600px;
+}
+.parceiros h1{
+    color:rgb(0, 0, 0);
+    position: relative;
+    left: 90px;
+    top: 120px;
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+

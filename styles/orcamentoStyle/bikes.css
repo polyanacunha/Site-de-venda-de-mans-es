@@ -1,0 +1,240 @@
+ /* bikes do bikcraft(resposta da questionOne)*/
+
+ .bikeOne {    
+    display: inline-block;
+    height: 50px;
+    width: 400px;
+    padding: 10px 0;
+    position: relative;
+    top: -50px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 5px;
+  }
+  .bikeOne .photoOne {
+      display: none;
+      position: relative;
+      top:10px; 
+ }
+  
+  .bikeOne label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+    padding-left: 30px;
+     
+  }
+  .bikeOne input{
+    position:relative;
+    top:20px;
+    left: 7px;
+  }
+  
+  .bikeOne input:checked ~ .photoOne {
+    display: block;
+    
+  }
+  #nimbus img{
+    width: 150px;
+    height: 110px;
+    position: relative;
+    top:-100px;
+    left: 227px;
+    border-radius: 5px;
+
+  
+  }
+.bikeOne .photoOne  .boxOne{
+    background-color: white;
+    height: 160px;
+    width: 400px;
+    border-radius: 5px;
+   padding-top: 10px;
+  
+  }
+
+
+#motor p{
+  color: rgb(112, 112, 112);
+  position: relative;
+  left: 40px;
+  top:-5px;
+  font-size: 13px;
+  font-weight: 600;
+  margin: -5px;
+
+  
+}
+#motor img{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 10px;
+  
+}
+  /* bike Two */
+
+  .bikeTwo {
+    display: inline-block;
+    height: 50px;
+    width: 400px;
+    padding: 10px 0;
+    position: relative;
+    top: -20px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 5px;
+
+  }
+  
+ 
+  .bikeTwo .photoTwo {
+      display: none;
+      position: relative;
+      top:150px; 
+      
+ }
+  
+  .bikeTwo label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+    padding-left: 30px;
+  }
+  
+  .bikeTwo input:checked ~ .photoTwo {
+    display: block;
+    
+  }
+  .bikeTwo input{
+    position:relative;
+    top:20px;
+    left: 7px;
+  }
+  #magic img{
+    width: 150px;
+    height: 110px;
+    position: relative;
+    top:-100px;
+    left: 227px;
+    border-radius: 5px;
+
+  
+  }
+  .bikeTwo .photoTwo  .boxTwo{
+    background-color: white;
+    height: 160px;
+    width: 400px;
+    border-radius: 5px;
+   padding-top: 10px;
+   position:relative;
+   top: -140px;
+  }
+  .photoTwo img{
+    width: 100px;
+    height: 100px;
+  }
+  #motor p{
+    color: rgb(112, 112, 112);
+    position: relative;
+    left: 40px;
+    top:-5px;
+    font-size: 13px;
+    font-weight: 600;
+    margin: -5px;
+
+    
+  }
+  #motor img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 10px;
+    
+  }
+
+  /* bikeThree */
+
+  .bikeThree {
+   
+   
+    display: inline-block;
+    height: 50px;
+    width: 400px;
+    padding: 10px 0;
+    position: relative;
+    top: 0px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 5px;
+  }
+
+
+  .bikeThree .photoThree {
+      display: none;
+      position: relative;
+      top:150px; 
+ }
+  
+  .bikeThree label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+    padding-left: 30px;
+
+   
+  }
+  
+  .bikeThree input:checked ~ .photoThree {
+    display: block;
+    
+  }
+  .bikeThree input{
+    position:relative;
+    top:20px;
+    left: 7px;
+  }
+
+  .photoThree img{
+    width: 100px;
+    height: 100px;
+  }
+  #nebula img{
+    width: 150px;
+    height: 110px;
+    position: relative;
+    top:-100px;
+    left: 227px;
+    border-radius: 5px;
+
+  
+  }
+.bikeThree .photoThree  .boxThree{
+    background-color: white;
+    height: 160px;
+    width: 400px;
+    border-radius: 5px;
+   padding-top: 10px;
+   position:relative;
+   top: -140px;
+  }
+
+
+#motor p{
+  color: rgb(112, 112, 112);
+  position: relative;
+  left: 40px;
+  top:-5px;
+  font-size: 13px;
+  font-weight: 600;
+  margin: -5px;
+
+  
+}
+#motor img{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 10px;
+  
+}

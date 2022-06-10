@@ -1,0 +1,241 @@
+            /* estilização inicial do orçamento e das questions(bikdraft e seguro) */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+body{
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.initial{
+    background-color: rgb(91, 48, 209); 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -83px;
+    margin-right: -83px;
+    height: 130px;
+    border-top: 20px solid rgb(22, 22, 22);
+    border-bottom: 10px solid rgb(22, 22, 22);
+}
+
+.initial ul a li{
+    background-color:rgb(91, 48, 209); 
+  position: relative;
+   display: inline-block;
+   font-weight: 500px;
+   font-size: 18px ;
+   color: white;
+   letter-spacing: 0px;
+  margin: 20px;
+  width: 70px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.initial ul a li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 243, 243);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+ .initial ul a li:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+.initial a h1 {
+    background-color: black; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+ /* solicite um orçamento, seção1 */
+
+.cotacoes{
+    background-color: rgb(22, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1366px;
+    margin-left: -83px;
+    height: 500px;
+}
+ #cotacoesEmail{
+       color:rgba(255, 255, 255, 0.7);
+       font-size: 30px;
+       position: relative;
+       left: 50px;
+       top: 50px;
+       
+ }
+ .cotacoes h1{
+     font-size: 50px;
+     position: relative;
+     left: 50px;
+     top: 70px;
+ }
+
+            /* dados pessoais */
+
+
+           .dadosPessoais .black{
+                background-color: black;
+               margin-left: 100px;
+               margin-top: 120px;
+                height: 700px;
+                width: 500px;
+                border-radius: 5px;
+            }
+            .dadosPessoais .black p{
+                color: rgba(255, 255, 255, 0.7);
+                font-size: 12px;
+                position: relative;
+                top: 50px;
+                left: 50px;
+            }
+
+
+            /* Question one */
+
+            .questionOne {
+               
+              
+                display: inline-block;
+                height: 50px;
+                 width: 190px;
+                padding: 10px 0;
+                position: relative;
+                top: 60px;
+                left: 50px;
+                background-color: rgb(65, 65, 65);
+                border-radius: 5px;
+              }
+              
+             
+              .questionOne .answerOne {
+                  display: none;
+                  position: relative;
+                  top:150px; 
+                
+             }
+              
+              .questionOne label {
+                display: inline-block;
+                font-weight: bold;
+                margin-bottom: 5px;
+                width: 100%;
+            
+               
+              }
+              
+              .questionOne input:checked ~ .answerOne {
+                display: block;
+                
+              }
+
+              /* questiontwo */
+              .questionTwo {
+                display: inline-block;
+                width: 200px;
+                padding: 10px 0;
+                position: relative;
+                top: 90px;
+                left: 50px;
+                background-color: rgb(65, 65, 65);
+                border-radius: 5px;
+              }
+              .questionTwo .answerTwo {
+                  display: none;
+                  position: relative;
+                  top:150px; 
+                  left: -200px;
+             }
+              .questionTwo label {
+                display: inline-block;
+                font-weight: bold;
+                margin-bottom: 5px;
+                width: 100%;
+              }
+              .questionTwo input:checked ~ .answerTwo {
+                display: block;  
+              }
+/* ondinha */
+
+
+
+.words {
+  background-color: rgb(91, 48, 209);
+  color:  rgb(91, 48, 209);
+  font-size: 0;
+  line-height: 1.5;
+  position: relative;
+  left: 100px;
+  top: -10px;
+  height: 50px;
+}
+
+.words span {
+  font-size: 5rem;
+  position: relative;
+  left: -50px;
+  top: -20px;
+  display: inline-block;
+  animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(-30%, 0);
+  }
+  50% {
+    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+  }
+  100% {
+    transform: translate(30%, 0);
+  }
+}
+
+.words span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.words span:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.words span:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+.words span:nth-child(5) {
+  animation-delay: 2s;
+}
+
+.words span:nth-child(6) {
+  animation-delay: 2.5s;
+}
+
+.words span:nth-child(7) {
+  animation-delay: 3s;
+}
+
+/* ondinha */
+     
+

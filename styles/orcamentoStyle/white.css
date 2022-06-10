@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.white{
+    position: relative;
+   color: black;
+    width: 670px;
+    height: 700px;
+    background-color: white;
+    left: 600px;
+    top: -700px;
+    border-radius: 5px;
+}
+
+.white p {
+    color: black;
+    position: relative;
+    font-size: small;
+    left: 50px;
+    top: 50px;
+
+}
+
+.sobrenome{
+    position:relative ;
+    margin-bottom: 50px;  
+    display: flex;
+    flex-direction: column;
+}
+.sobrenome input {
+    background-color: rgb(206, 205, 205);
+    border-radius: 5px;
+    width: 270px;
+    height: 50px; 
+    position: relative;
+    left: 370px;
+    top: 20px;
+    
+}
+
+.sobrenome label{
+    position: relative;
+    left: 400px;
+    top: 10px;
+}
+.nome{
+    position:relative ;
+    margin-bottom: 0px;  
+    display: flex;
+    flex-direction: column;
+}
+.nome label{
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+.nome input{
+    background-color: rgb(206, 205, 205);
+    border-radius: 5px;
+    width: 270px;
+    height: 50px; 
+    position: relative;
+    left: 60px;
+    top: 90px;
+}
+.formulario {
+           position:relative ;
+           margin-bottom: 50px;  
+          
+}
+.email{
+    position:relative ;
+    margin-bottom: 60px;  
+
+}
+
+.email label{
+    position: relative;
+    top: -40px;
+    left: 50px;
+}
+.email input{
+    background-color: rgb(206, 205, 205);
+    border-radius: 5px;
+    width: 270px;
+    height: 50px; 
+    position: relative;
+    left: 5px;
+}
+
+
+.formulario label{
+    position: relative;
+    top: -40px;
+    left: 50px;
+}
+.formulario input{
+    background-color: rgb(206, 205, 205);
+    border-radius: 5px;
+    width: 270px;
+    height: 50px; 
+    position: relative;
+    left: 25px;
+}
+
+.lugar{
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    left: 70px;
+    width: 200px;
+    top: -40px;
+
+}
+.lugar label, .lugar input {
+    position:relative ;
+    margin-bottom: 10px;
+    right: 10px;
+}
+.endereco label, .endereco input {
+    position:relative ;
+    margin-bottom: 10px;
+    top: -435px;
+    left: -30px;
+
+    
+}
+.endereco input, .lugar input{
+    background-color: rgb(206, 205, 205);
+    border-radius: 5px;
+    width: 270px;
+    height: 50px;
+    
+    
+
+}
+
+.endereco{
+    position:relative ;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    top: 00px;
+    left: 300px;
+
+}
+.button{
+    position: relative;
+    top: -370px;
+    left: 210px;
+  
+}
+button{
+    
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    width: 280px;
+    height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+.button :hover{
+    background-color: rgb(255, 159, 16);
+}

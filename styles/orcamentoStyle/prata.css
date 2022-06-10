@@ -1,0 +1,109 @@
+  /* questiontwo */
+  .questionTwo {
+    display: inline-block;
+    width: 200px;
+    padding: 10px 0;
+    position: relative;
+    top: -50px;
+    left: 200px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 5px;
+    height: 50px;
+  }
+  .questionTwo .answerTwo {
+      display: none;
+      position: relative;
+      top:150px; 
+      left: -200px;
+ }
+  .questionTwo label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  .questionTwo input:checked ~ .answerTwo {
+    display: block;  
+  }
+
+
+
+             /* questionprata */
+
+.questionPrata {
+  display: inline-block;
+  height: 50px;
+   width: 400px;
+  padding: 10px 0;
+  position: relative;
+  top: -90px;
+  left: 0px;
+  background-color: rgb(65, 65, 65);
+  border-radius: 5px;
+  
+
+}
+
+
+.questionPrata .answerPrata {
+    display: none;
+    position: relative;
+    top:150px; 
+  
+}
+
+.questionPrata label {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%;
+
+ 
+}
+
+.questionPrata input:checked ~ .answerPrata {
+  display: block;
+  
+}
+/* questiontwo */
+
+.questionOuro {
+  display: inline-block;
+  width: 400px;
+  padding: 10px 0;
+  position: relative;
+  top: -80px;
+  left: 0px;  
+  background-color: rgb(65, 65, 65);
+  border-radius: 5px;
+  
+}
+
+
+.questionOuro .answerOuro {
+    display: none;
+    position: relative;
+    top:150px; 
+    left: -200px;
+  
+}
+
+.questionOuro label {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%;
+  
+}
+.questionOuro input:checked ~ .answerOuro {
+  display: block;
+  background-color: pink;
+  
+}
+
+
+
+
+    
+
+               

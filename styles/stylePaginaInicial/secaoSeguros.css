@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+.seguros{
+    top: -4px;
+    background-color: rgb(20, 20, 20);
+    width: 1358px;
+    height: 800px;
+    position: relative;
+    margin-left: -90px; 
+}
+.seguros p{
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.titleseguros{
+    font-size: 90px ;
+}
+.prata{
+background-color: rgb(0, 0, 0);
+width: 500px;
+height: 460px;
+position: relative;
+top: 130px;
+left: 50px;
+border-radius: 5px;
+}
+.prata h1{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.prata button{
+    position: relative;
+    left: 50px;
+    top: 70px;
+    padding: 15px 20px;
+    background-color: rgb(49, 49, 49);
+    font-size: 20px ;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ouro{
+position: relative;
+top: -370px;
+left: 600px;
+border-radius: 5px;
+background-color: rgb(0, 0, 0);
+width: 500px;
+height: 560px;
+}
+.ouro button{
+    position: relative;
+    left: 50px;
+    top: 70px;
+    padding: 15px 20px;
+    background-color: #bfab93;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+ .ouro button:hover{
+    background-color: #bfab93;
+}
+.prata button:hover{
+    background-color: rgb(66, 66, 66);
+}
+.seguros .prata ul li{
+    font-size: 20px ;
+    position: relative;
+    left: 50px;
+    padding-bottom: 30px;
+    top: 70px;
+    list-style-image: url('../components/images/itens.png');
+}
+
+.seguros .prata h2{
+    position: relative;
+   left: 380px;
+   font-size: 30px;
+}
+
+.seguros .prata p{
+    position: relative;
+    top: 5px;
+    left: 435px ;
+    font-size: 13px;
+    color: rgb(255, 255, 255, 0.7);
+}
+.seguros .ouro ul li{
+    font-size: 20px ;
+    position: relative;
+    left: 50px;
+    padding-bottom: 30px;
+    top: 60px;
+    list-style-image: url('../components/images/itens.png');
+      
+}
+.ouro h1{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    color: #edd58f;
+}
+.seguros .ouro h2{
+    position: relative;
+   left: 380px;
+   font-size: 30px;
+   top: 35px;
+}
+.seguros .ouro p{
+    position: relative;
+    left: 435px ;
+    font-size: 13px;
+    color: rgb(255, 255, 255, 0.7);
+    top: 35px;
+}
+
+
+a {
+    text-decoration: none;
+}
